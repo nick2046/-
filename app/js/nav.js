@@ -1,4 +1,6 @@
-$(function(){
+define(function(require,exports,module){
+	var nav_left = require('../view/nav-left.html');
+	$('.ccl-nav-left').html(nav_left);
 	$('.ccl-nav-left a .icon-mulu').hover(function(){
 		$('.ccl-nav-left a .mulu').css({display:'block'});
 	},function(){
