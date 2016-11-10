@@ -8,12 +8,12 @@ $('.open-in-mobile').click(function(){
 $('.button').click(function(){
 	$('.modal').css({"display":"none"});
 })
-$('.share-container .more .icon-jaintou').click(function(){
-	$('.icon-jaintou').addClass('active');
+$('.share-container .more .icon-jiantou').click(function(){
+	$('.icon-jiantou').addClass('active');
 	$('.dropdown-menu').css({"display":"block"});
 })
 $('.share-container .more em').click(function(){
-	$('.icon-jaintou').removeClass('active');
+	$('.icon-jiantou').removeClass('active');
 	$('.dropdown-menu').css({"display":"none"});
 })
 $('.swiper-slide').hover(function(e){
