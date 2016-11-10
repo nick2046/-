@@ -1,109 +1,101 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" type="text/css" href="../css/reset.css">
-    <link rel="stylesheet" type="text/css" href="../css/animate.css">
-    <link rel='icon' href='../img/logo.png' type=‘image/x-ico’ />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>首页-简书</title>
+	<!-- inject:css -->
+	<link rel="stylesheet" href="../app-ecb5d9ab5d.min.css">
+	<!-- endinject -->
+	<link rel='icon' href='../img/logo.png' type=‘image/x-ico’ />
+	<script src="../bower_components/jquery/dist/jquery1.42.min.js"></script>
+	<script src="../bower_components/underscore/underscore.js"></script>
+	<script src="../bower_components/seajs/dist/sea.js"></script>
 </head>
-
 <body>
-    <section class="HX-row-fluid">
-        <div class="content">
-            <div class="container clear">
-                <div class="left">
-                    <div class="left-top">
-                        <img id="h-logo" src="../img/img_logo-.png" alt="">
-                    </div>
-                    <div class="left-center clear">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <i class="iconfont icon-anzhuo"></i>
-                                    <span>Android版</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="n">
-                                    <i class="iconfont icon-shouji"></i>
-                                    <span>iphone版</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <img class="two-code" src="../img/two-code.png" alt="">
-                    </div>
-                    <ul class="share">
-                        <li>
-                            <a href="#">关注我们</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="iconfont icon-weibo"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="iconfont icon-weixin"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="iconfont icon-tuite"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="right">
-                    <img class="h-phone" src="../img/img_phone.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="show-content">
-            <div class="container">
-                <div class="txt-box">
-                    <h1 class="h-title">关于简书</h1>
-                    <b class="line"></b>
-                    <p class="h-p">
-                        简书 （ jianshu.com ）始终致力于做中文世界最好的写作与阅读平台，集结最优秀的创作者与文字爱好者，在嘈杂喧嚣的网络时代，重新沉淀并唤醒文字的力量。
-                    </p>
-                    <p class="h-p">本款 App 是简书团队向读者们送出的一份充满诚意的礼物。更丰富的功能正在逐步开发中，期待您的意见与建议。简洁优美的产品理念将始终在这里延续。</p>
-                    <p class="h-p">希望你在简书，重拾阅读的乐趣。</p>
-                </div>
-            </div>
-        </div>
-        <ul class="footer-show clear">
-            <li class="text-left clear">
-                <img class="h-four" src="../img/img1.png" alt="">
-                <div>
-                    <h3>精选文章</h3>
-                    <p>及时阅读每日精选文章</p>
-                </div>
-            </li>
-            <li class="text-right">
-                <img class="h-four" src="../img/img2.png" alt="">
-                <div>
-                    <h3>个性表达</h3>
-                    <p>对作品发表自己的看法</p>
-                </div>
-            </li>
-            <li class="text-left clear">
-                <img class="h-four" src="../img/img3.png" alt="">
-                <div>
-                    <h3>专题管理</h3>
-                    <p>现在你就是最好的主编</p>
-                </div>
-            </li>
-            <li class="text-right">
-                <img class="h-four" src="../img/img4.png" alt="">
-                <div>
-                    <h3>便利分享</h3>
-                    <p>随时转发分享精彩内容</p>
-                </div>
-            </li>
-        </ul>
-    </section>
-    <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="../js/animate.js"></script>
-    <script>
-    </script>
+	<nav id="nav"></nav>
+	<div class="cxw-offset">
+		<div class="page-title">
+			<ul class="clear">
+				<li class="active"><a href="index.html">发现</a></li>
+				<li><a href="choice.html">2015精选</a></li>
+				<li class="search">
+					<input type="search" placeholder="搜索">
+				</li>
+			</ul>
+		</div>
+		<!-- <div class="navbar-user">
+			<a class="login" href="#"><i class="iconfont icon-denglu"></i>注册</a>
+			<a class="login" href="#"><i class="iconfont icon-login "></i>登录</a>
+		</div> -->
+		<div class="list-container">
+			<ul class="unstyled clear">
+				
+			</ul>
+			<ul class="article-list">
+				<!-- <li class="have-img clear">
+					<a class="wrap-img" href="#"><img src="../img/1.jpg" alt=""></a>
+					<div>
+						<p class="list-top">
+							<a class="blue-link" href="#">沫情舒</a>
+							<em>·</em>
+							<span class="time" data-shared-at="2016-11-08T20:22:36+08:00">大约14小时之前</span>
+						</p>
+						<h4 class="title">
+							<a href="#">张幼仪：面对失去的爱情，最有效的治愈与最精彩的报复是...</a>
+						</h4>
+						<div class="list-footer">
+							<a href="#">阅读 3661</a>
+							<a href="#">· 评论 67</a>
+							<span> · 喜欢 231</span>
+							<span> · 打赏 2</span>
+						</div>
+					</div>
+				</li> -->
+			</ul>
+			<div class="load-more">
+				<button class="ladda-button" type="button">点击查看更多</button>
+			</div>
+		</div>
+	</div>
+	<footer class="footer clear">
+		<div class="footer-l">
+			<p>
+				<a href="#">关于简书</a>
+				<a href="#">联系我们</a>
+				<a href="#">作者成书计划</a>
+				<a href="#">帮助中心</a>
+				<a href="#">简书周边</a>
+				<a href="#">合作伙伴</a>
+			</p>
+			<p>
+				©2012-2016 
+				<a href="#">简书</a>
+				 / 沪ICP备11018329号-5 /
+				<a href="#"><img src="../img/guohui.png" alt=""> 沪公网安备31010602000064号</a>
+				<img style="width: 60px;height: 21px;" src="../img/sm_83x30.png" alt="">
+			</p>
+		</div>
+		<div class="footer-r">
+			<div class="app-download-btn">
+				<a href="#"><img src="../img/ios.png" alt=""></a>
+				<a href="#"><img src="../img/android.png" alt=""></a>
+			</div>
+			<div>
+				关注我们:
+				<a href="#"><i class="iconfont icon-weibo"></i></a>
+				<a href="#"><i class="iconfont icon-qq"></i></a>
+				<a href="#"><i class="iconfont icon-tuite"></i></a>
+			</div>
+		</div>
+	</footer>
+	<script>
+		seajs.config({
+			base:'./'
+		});
+		seajs.use('../js/jingxuan',function(index){
+			index.init();	
+		});	
+	</script>
 </body>
-
 </html>

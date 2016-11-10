@@ -1,9 +1,14 @@
 define(function(require,exports,module) {
 	var nav = require('../view/nav-left.html');
-	$('.ccl-nav').html(nav);
+	
 	var navjs = require('../js/nav.js');
-	function sign(event) {
-		$('.sign_in_click').click(function() {
+	var sigin = {
+		init:function(){
+			this.render();
+		},
+		events:function(event){
+			navjs.init();
+			$('.sign_in_click').click(function() {
 			$(this).addClass('active')
 			$('.sign_out_click').removeClass('active')
 			$('.sign_in').show();
@@ -15,6 +20,12 @@ define(function(require,exports,module) {
 			$('.sign_out').show()
 			$('.sign_in').hide()
 		})
-	}
-	sign();
+		},
+		render:function(){
+			$('.ccl-nav').html(nav);
+			this.events();
+		}
+	};
+
+	module.exports = sigin;
 })

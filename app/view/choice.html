@@ -263,7 +263,9 @@
 		seajs.config({
 			base:"./"
 		});
-		seajs.use('../js/choice.js')
+		seajs.use('../js/choice.js',function(a){
+			a.init();
+		})
 	</script>
 </body>
 </html>
