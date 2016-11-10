@@ -2,6 +2,10 @@ define(function(require,exports,module){
 	var article = require('../view/article-list.html');
 	var _html = _.template(article);
 	var download = require('../view/app-download-guide.html');
+	var nav = require('../view/nav.html');
+	$('#nav').html(nav);
+	var navjs = require('../js/nav.js');
+
 
 	$.ajax({
 		url:'../jianshu.json',
@@ -13,9 +17,9 @@ define(function(require,exports,module){
 		$('.article-list').html(_html({data:res.article}));
 		$('.article-list .have-img').eq(3).before(download);
 		$('.qrcode').hover(function(){
-			$('.img').css("display","block");
+			$('.btn-part .img').css("display","block");
 		},function(){
-			$('.img').css("display","none");
+			$('.btn-part .img').css("display","none");
 		});
 		
 		}
