@@ -3116,40 +3116,40 @@ Copyright (c) 2015 Daniel Eden
   cursor: pointer;
 }
 .choice-container .swiper-wrapper .page1 .pan {
-  background-image: url("../img/month1.jpg");
+  background-image: url(img/month1.jpg);
 }
 .choice-container .swiper-wrapper .page2 .pan {
-  background-image: url("../img/month2.jpg");
+  background-image: url(img/month2.jpg);
 }
 .choice-container .swiper-wrapper .page3 .pan {
-  background-image: url("../img/month3.jpg");
+  background-image: url(img/month3.jpg);
 }
 .choice-container .swiper-wrapper .page4 .pan {
-  background-image: url("../img/month4.jpg");
+  background-image: url(img/month4.jpg);
 }
 .choice-container .swiper-wrapper .page5 .pan {
-  background-image: url("app/img/month5.jpg");
+  background-image: url(img/month5.jpg);
 }
 .choice-container .swiper-wrapper .page6 .pan {
-  background-image: url("app/img/month6.jpg");
+  background-image: url(img/month6.jpg);
 }
 .choice-container .swiper-wrapper .page7 .pan {
-  background-image: url("app/img//month7.jpg");
+  background-image: url(img/month7.jpg);
 }
 .choice-container .swiper-wrapper .page8 .pan {
-  background-image: url("app/img/month8.jpg");
+  background-image: url(img/month8.jpg);
 }
 .choice-container .swiper-wrapper .page9 .pan {
-  background-image: url("app/img/month9.jpg");
+  background-image: url(img/month9.jpg);
 }
 .choice-container .swiper-wrapper .page10 .pan {
-  background-image: url("app/img/month10.jpg");
+  background-image: url(img/month10.jpg);
 }
 .choice-container .swiper-wrapper .page11 .pan {
-  background-image: url("app/img/month11.jpg");
+  background-image: url(img/month11.jpg);
 }
 .choice-container .swiper-wrapper .page12 .pan {
-  background-image: url("app/img/month12.jpg");
+  background-image: url(img/month12.jpg);
 }
 .modal {
   display: none;
